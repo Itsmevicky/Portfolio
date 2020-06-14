@@ -103,10 +103,10 @@ a {
     margin: 50px auto auto;
 }
 .icons{
-    top: 50%;
+    top: 60%;
     left: 0;
     transform: translateY(-5%);
-    position: absolute;
+    position: fixed;
     z-index: 100;
 }
 .icons ul{
@@ -124,9 +124,11 @@ a {
 .icons ul li:hover{
     padding-right: 30px;
     width: 80px;
-    transition: 1s;
-    background-color: white;
-    color: black;
+    transform: scale(1.5);
+}
+.social-link:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 ::-webkit-scrollbar {
@@ -139,13 +141,17 @@ a {
     .project-desc {
         letter-spacing: 0;
         width: 80%;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .project-margin{
         margin-bottom: 50px;
     }
     .contact-me-title {
         margin: 100px auto auto;
+    }
+    .project-img{
+        float: clear;
+        display: block;
     }
     
 }
