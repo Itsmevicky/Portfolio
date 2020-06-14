@@ -23,8 +23,16 @@ body {
     font-family: "Montserrat-Light";
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+}
+
 .title {
-    padding-top: 70px;
+    margin-top: 120px;
     letter-spacing: 3px;
     font-family: 'Homemade Apple', cursive;
 }
@@ -34,25 +42,110 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 10%;
-}
-
-#title .container-fluid {
-    padding: 3% 15% 20%;
-}
-img{
-    border-radius: 50%;
-    margin-top: 30px;
-}
-
-p{
-    width: 50%;
     margin: auto;
-    font-size: 1.5rem;
-    padding: 50px;
+    padding: 3% 15% 20%;
+    height: 100vh;
+}
+    
+.profile-img {
+    border-radius: 50%;
+    margin: 100px auto auto;
+}
+.hi{
+    margin: 20px auto 0;
+}
+#intro{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 
-.contact-me-text{
+.project {
+    margin: 100px auto 20px;
+}
+
+.project-img {
+    width: 30%;
+    float: left;
+    margin: 50px 20px auto 50px;
+}
+.project-name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-desc {
+    margin: 0 auto auto 50px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.project-margin{
     margin-top: 100px;
+}
+
+#contact-me-title {
+    margin: 100px auto auto;
+}
+#contact-me-second-header{
+    margin: 20px auto auto;
+}
+#contact-me-body{   
+    margin: 20px auto auto;
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    
+}
+.btn{
+    margin: 50px auto auto;
+}
+.icons{
+    top: 50%;
+    left: 0;
+    transform: translateY(-5%);
+    position: absolute;
+    z-index: 100;
+}
+.icons ul{
+    padding: initial;
+}
+.icons ul li{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 3px;
+    margin-top: 1px;
+}
+
+.icons ul li:hover{
+    padding-right: 30px;
+    width: 80px;
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@media(max-width: 768px) {
+    .project-desc {
+        letter-spacing: 0;
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .project-margin{
+        margin-bottom: 50px;
+    }
+    .contact-me-title {
+        margin: 100px auto auto;
+    }
+    
 }
