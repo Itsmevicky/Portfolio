@@ -12,10 +12,12 @@
   <link rel="icon" href="favicon.ico">
 </head>
 
-<body>
-  <section class="first-container" id="title">
+<!-- Navigation Bar and Title  -->
 
-    <div class="container-fluid">
+
+<body>
+
+    <div class="container-fluid custom-margin">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -28,7 +30,7 @@
               <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact-me">Contact Me</a>
@@ -38,66 +40,87 @@
       </nav>
 
       <!-- Title -->
-      <div class="">
+      <div>
         <h1 class="title">I'm Vicky.</h1>
         <h2>a <span class="pro title">pro</span>grammer</h2>
       </div>
 
     </div>
-  </section>
 
-  <section class="second-container" id="about-me">
+  <!-- Profile image and a short description -->
 
-    <div class="container-fluid">
+
+    <div class="container-fluid custom-margin" id="about-me">
       <img class="profile-img" src="images/0.jpg" alt="profile-image">
       <h3 class="hi">Hi</h3>
-      <p id="intro">I'm a web and android developer. I have a passion for creating application for web and mobile. I ❤️ coffee.</p>
+      <p id="intro">I'm a web and android developer. Have a passion for creating application for web and mobile. Passionate about new technologies, Open Source, modern web applications development, Node.js, C++. I ❤️
+        coffee.</p>
     </div>
-  </section>
 
-  <section class="third-container" id="project">
-      <div class="container-fluid">
-        <div class="first-project">
-          <img class="project-img" src="images/drum-kit.png" alt="project1">
-        <h3 class="project-name">Drum-Kit</h3>
-        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque inventore animi quod a
-          minus reprehenderit ullam odit, maiores quia recusandae explicabo aspernatur magnam commodi consectetur. Porro
-          recusandae ex quisquam fugiat!
-        </p>
-      </div>
-      <div class="project-margin">
-        <div>
-          <img  class="project-img" src="images/dice-game.png" alt="project1">
+  <!-- Project Section for adding projects -->
+
+
+      <div class="container-fluid" id="projects">
+        <div class="project-area row">
+          <div class="project-column col-lg-4 col-md-4">
+            <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drum Kit</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id praesentium accusamus animi assumenda delectus excepturi nihil eius, ducimus quisquam quis ratione deleniti odio nesciunt totam commodi sit obcaecati ipsa adipisci.</p>
+              <a href="https://github.com/Itsmevicky/Drum-kit" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
+            </div>
+          </div>
+          <div class="project-column col-lg-4 col-md-4">
+            <img src="images/dice-game.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dice Game</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id praesentium accusamus animi assumenda delectus excepturi nihil eius, ducimus quisquam quis ratione deleniti odio nesciunt totam commodi sit obcaecati ipsa adipisci.</p>
+              <a href="https://github.com/Itsmevicky/Dice-Game/tree/master/Dicee%20Challenge%20-%20Starting%20Files" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
+            </div>
+          </div>
+          <div class="project-column col-lg-4 col-md-4">
+            <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drum Kit</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id praesentium accusamus animi assumenda delectus excepturi nihil eius, ducimus quisquam quis ratione deleniti odio nesciunt totam commodi sit obcaecati ipsa adipisci.</p>
+              <a href="#" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
+            </div>
+          </div>
         </div>
-        <h3 class="project-name">Dice Game</h3>
-        <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque inventore animi quod a
-          minus reprehenderit ullam odit, maiores quia recusandae explicabo aspernatur magnam commodi consectetur. Porro
-          recusandae ex quisquam fugiat!
-        </p>
+      </div>
+
+
+    <div class="container-fluid custom-margin" id="contact-me">
+      <div class="contact-me-column">
+        <h2 class="text-center mx-auto">I can help.</h2>
+      <h3 class="text-center mx-auto">I'm currently available for internship or hiring.</h3>
+      <p class="text-center mx-auto">If you have a project that you want to get started, think you need my help with something
+        or just fancy saying
+        hey, then get in touch</p>
+      <a class="btn btn-outline-dark " href="mailto:anuranjanranawat.1@gmail.com">CONTACT ME</a>
+         <p class="footer"> Made with ❤️ by <span class="title">Vicky</span></p>
       </div>
     </div>
-  </section>
 
 
-  <section class="fourth-container" id="contact-me">
-    <div class="container-fluid">
-      <h2 id="contact-me-title">I can help.</h2>
-      <h3 id="contact-me-second-header">I'm currently available for internship or hiring.</h3>
-      <p id="contact-me-body">If you have a project that you want to get started, think you need my help with something or just fancy saying
-        hey, then get in touch</p>
-      <a class="btn btn-outline-dark" href="mailto:anuranjanranawat.1@gmail.com">CONTACT ME</a>
-    </div>
+
+    <!-- Social Site links -->
+
+
 
     <div class="icons">
-     <ul>
-       <li><a class="social-link" href="https://linkedin.com/in/kumar-vicky"><i class="fab fa-linkedin-in"></i></a></li>
-       <li><a class="social-link" href="https://twitter.com/vickykumar0000"><i class="fab fa-twitter"></i></a</li>
-       <li><a class="social-link" href="https://github.com/itsmevicky"><i class="fab fa-github"></i></a></li></li>
-       <li><a class="social-link" href="https://github.com/itsmevicky"><i class="fab fa-whatsapp"></i></a></li>
-       <li><a class="social-link" href="https://hackerrank.com/im_vicky"><i class="fab fa-hackerrank"></i></a></li>
-     </ul>
+      <ul>
+        <li><a class="social-link" href="https://linkedin.com/in/kumar-vicky"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li><a class="social-link" href="https://twitter.com/vickykumar0000"><i class="fab fa-twitter"></i></a</li> <li>
+            <a class="social-link" href="https://github.com/itsmevicky"><i class="fab fa-github"></i></a></li>
+        </li>
+        <li><a class="social-link" href="https://wa.me/9955588452"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a class="social-link" href="https://hackerrank.com/im_vicky"><i class="fab fa-hackerrank"></i></a></li>
+      </ul>
     </div>
-  </section>
+
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
