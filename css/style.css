@@ -48,6 +48,7 @@ a {
 .custom-margin {
     margin: auto;
     padding: 3% 15% 20%;
+    height: 100vh;
 }
 
   .project-column {
