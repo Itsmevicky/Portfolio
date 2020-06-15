@@ -3,11 +3,6 @@ body {
     text-align: center;
 }
 
-.first-container{
-    background-image: url("images/0.png") ;
-    background-repeat: no-repeat, repeat;
-}
-
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -48,49 +43,59 @@ a {
 .custom-margin {
     margin: auto;
     padding: 3% 15% 20%;
-    height: 100vh;
 }
 
-  .project-column {
-    padding: 5% 4%;
-  }
-    
+.project-area {
+    padding: 3% 2%;
+}
+
+.project-column {
+    padding: 3% 2%;
+    margin: 3% 4%;
+}
+
 .profile-img {
     border-radius: 50%;
     margin: 100px auto auto;
 }
+
 .contact-me-column {
     border-radius: 50%;
     margin: 100px auto auto;
 }
 
-.hi{
+.hi {
     margin: 20px auto 0;
 }
-.img-thumbnail{
+
+.img-thumbnail {
     border: none;
 }
-#intro{
+
+#intro {
     width: 70%;
     margin: 0 auto;
     font-size: 1.3rem;
     letter-spacing: 1px;
 }
-.mx-auto{
+
+.mx-auto {
     width: 50%;
 }
 
 
-.icons{
+.icons {
     top: 60%;
     transform: translateY(-5%);
     position: fixed;
     z-index: 100;
 }
-.icons ul{
+
+.icons ul {
     padding: initial;
 }
-.icons ul li{
+
+.icons ul li {
     height: 40px;
     width: 40px;
     list-style-type: none;
@@ -99,29 +104,38 @@ a {
     margin-top: 1px;
 }
 
-.icons ul li:hover{
+.icons ul li:hover {
     padding-right: 30px;
     width: 80px;
     transform: scale(1.5);
 }
-.social-link:hover{
+
+.social-link:hover {
     color: black;
 }
-.btn{
+
+.btn {
     margin-top: 50px;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
-.footer{
+
+.footer {
     margin: 100px auto 10px;
 }
 
 @media (max-width: 1028px) {
     .project-column {
         padding: 5% 8%;
-      }
-    .footer{
+    }
+
+    .footer {
         margin: 100px auto 10px;
     }
-  }
+
+    #intro {
+        width: 100%;
+    }
+}
