@@ -18,52 +18,56 @@
 <body>
 
   <div class="container-fluid custom-margin">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
+    <div class="title-area">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div>
+        <h1 class="title">I'm Vicky.</h1>
+        <h2 class="title-desc">a <span class="pro title">pro</span>grammer</h2>
       </div>
-    </nav>
 
-    <!-- Title -->
-    <div>
-      <h1 class="title">I'm Vicky.</h1>
-      <h2>a <span class="pro title">pro</span>grammer</h2>
     </div>
-
   </div>
 
   <!-- Profile image and a short description -->
 
 
   <div class="container-fluid custom-margin" id="about-me">
-    <img class="profile-img" src="images/0.jpg" alt="profile-image">
-    <h3 class="hi">Hi</h3>
-    <p id="intro">I'm a web and android developer. Have a passion for creating application for web and mobile.
-      Passionate about new technologies, Open Source, modern web applications development, Node.js, C++. I ❤️
-      coffee.</p>
+    <div class="title-area">
+      <img class="profile-img shadow-lg" src="images/myimg.jpg" alt="profile-image">
+      <h3 class="hi">Hi</h3>
+      <p id="intro">I'm a web and android developer. Have a passion for creating application for web and mobile.
+        Passionate about new technologies, Open Source, modern web applications development, Node.js, C++. I ❤️
+        coffee.</p>
+    </div>
   </div>
 
   <!-- Project Section for adding projects -->
 
 
-  <div class="container-fluid custom-margin" id="projects">
-    <div class="project-area row ">
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+  <div class="container-fluid custom-margin">
+    <div class="project-area row" id="projects">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Drum Kit</h5>
@@ -74,7 +78,7 @@
             Github</a>
         </div>
       </div>
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/dice-game.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Dice Game</h5>
@@ -85,7 +89,7 @@
             class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
         </div>
       </div>
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Drum Kit</h5>
@@ -95,7 +99,7 @@
           <a href="#" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
         </div>
       </div>
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Drum Kit</h5>
@@ -105,7 +109,7 @@
           <a href="#" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
         </div>
       </div>
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Drum Kit</h5>
@@ -115,7 +119,7 @@
           <a href="#" class="btn btn-outline-dark"><i class="fab fa-github"></i> Github</a>
         </div>
       </div>
-      <div class="project-column col-lg-5 col-md-4 shadow-lg">
+      <div class="project-column col-lg-5 col-md-4 shadow-lg rounded">
         <img src="images/drum-kit.png" class="card-img-left p-3 img-thumbnail rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title">Drum Kit</h5>
@@ -131,18 +135,21 @@
 
   <div class="container-fluid custom-margin" id="contact-me">
     <div class="contact-me-column">
-      <h2 class="text-center mx-auto">I can help.</h2>
-      <h3 class="text-center mx-auto">I'm currently available for internship or hiring.</h3>
-      <p class="text-center mx-auto">If you have a project that you want to get started, think you need my help with
+      <h2 class="hi">I can help.</h2>
+      <h3 class="">I'm currently available for internship or hiring.</h3>
+      <p class="">If you have a project that you want to get started, think you need my help with
         something
         or just fancy saying
         hey, then get in touch</p>
       <a class="btn btn-outline-dark " href="mailto:anuranjanranawat.1@gmail.com">CONTACT ME</a>
-      <p class="footer"> Made with ❤️ by <span class="title">Vicky</span></p>
     </div>
   </div>
 
+  <!-- Footer-Section -->
 
+  <footer>
+    <p class=""> Made with ❤️ by <span class="title">Vicky</span></p>
+  </footer>
 
   <!-- Social Site links -->
 
