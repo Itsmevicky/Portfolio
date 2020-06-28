@@ -2,7 +2,6 @@ body {
     font-family: "Ubuntu";
     text-align: center;
 }
-
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -19,6 +18,7 @@ body {
 
 .nav-link {
     font-size: 1.2rem;
+    color: black;
 }
 
 .nav-link:hover {
@@ -27,6 +27,7 @@ body {
 }
 
 a {
+    text-decoration: none;
     color: black;
 }
 
