@@ -1,6 +1,7 @@
 body {
   font-family: "Ubuntu";
   text-align: center;
+  background: #f4f6ff;
 }
 .navbar {
   padding: 0 0 4.5rem;
@@ -13,12 +14,23 @@ body {
 }
 
 .nav-item {
-  margin: 15px;
+  margin: 10px;
+}
+.nav-item #resume {
+  color: #1e2022;
+  border: 2px solid #1e2022;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.nav-item #resume:hover {
+  background-color: #1e2022;
+  color: white;
+  transition: ease-in-out 0.3s;
 }
 
 .nav-link {
   font-size: 1.2rem;
-  color: black;
+  color: #1e2022;
 }
 
 .nav-link:hover {
@@ -28,7 +40,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #1e2022;
 }
 
 .title {
@@ -50,7 +62,7 @@ a {
 }
 
 .custom-margin {
-  padding: 3% 15%;
+  padding: 3% 10%;
 }
 
 .project-area {
@@ -111,7 +123,7 @@ a {
 }
 
 .social-link:hover {
-  color: black;
+  color: #1e2022;
 }
 .contact-me-h3 {
   padding: 28px 28px 0;
